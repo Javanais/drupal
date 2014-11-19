@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function javanais_asso_install() {
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+  standard_install();
+
+  locale_add_language('fr', $name = 'French', $native = 'Français', $direction = LANGUAGE_LTR, $domain = '', $prefix = '', $enabled = TRUE, $default = TRUE);
+}
