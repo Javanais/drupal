@@ -32,11 +32,6 @@ projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 
-; Gestion du recadrage des images dans les champs image
-projects[epsacrop][type] = "module"
-projects[epsacrop][subdir] = "contrib"
-projects[epsacrop][version] = "2.2"
-
 ; Gestion de l'export du paramétrage sous forme de modules
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
@@ -56,6 +51,11 @@ projects[imce][version] = "1.8"
 projects[imce_wysiwyg][type] = "module"
 projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
+
+; Pont entre imce et wysiwyg
+projects[imagefield_crop][type] = "module"
+projects[imagefield_crop][subdir] = "contrib"
+projects[imagefield_crop][version] = "1.1"
 
 ; Traduction de l'interface
 projects[l10n_update][type] = "module"
@@ -111,3 +111,4 @@ projects[javanais_asso][download][branch] = "master"
 ; Libraries
 ; ---------
 ; No libraries were included
+
