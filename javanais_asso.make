@@ -20,7 +20,7 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7.33
+projects[drupal][version] = 7.34
 
 
 
@@ -60,7 +60,7 @@ projects[imce_wysiwyg][version] = "1.0"
 ; Traduction de l'interface
 projects[l10n_update][type] = "module"
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][version] = 1.0-beta3
+projects[l10n_update][version] = 1.1
 
 ; Gestion des librairies externes à PHP (pattern adaptateur)
 projects[libraries][type] = "module"
