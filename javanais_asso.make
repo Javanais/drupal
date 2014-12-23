@@ -101,7 +101,7 @@ projects[] = l10n_install
 
 projects[javanais_asso][type] = "profile"
 projects[javanais_asso][download][type] = "git"
-projects[javanais_asso][download][url] = "git://github.com/Javanais/javanais-drupal-asso.git"
+projects[javanais_asso][download][url] = "git://github.com/Javanais/drupal-asso.git"
 projects[javanais_asso][download][branch] = "master"
 
 ; Themes
