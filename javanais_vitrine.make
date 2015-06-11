@@ -12,15 +12,7 @@ core = 7.x
 
 api = 2
 
-; Core project
-; ------------
-; In order for your makefile to generate a full Drupal site, you must include
-; a core project. This is usually Drupal core, but you can also specify
-; alternative core projects like Pressflow. Note that makefiles included with
-; install profiles *should not* include a core project.
 
-; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7.37
 
 ; The Panopoly Foundation
 
