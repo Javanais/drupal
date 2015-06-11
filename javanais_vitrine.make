@@ -17,13 +17,5 @@ projects[panopoly][download][branch] = 7.x-1.x
 projects[panopoly][download][tag] = 7.x-1.22
 
 
-; Traduction de l'interface
-projects[l10n_update][type] = "module"
-projects[l10n_update][version] = 1.1
-
-
-; Profiles
-projects[] = l10n_install
-
 ;load some translations
-translations[]=fr
+translations[] = fr
