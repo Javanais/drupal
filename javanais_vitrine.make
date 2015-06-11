@@ -11,6 +11,11 @@ translations[]=fr
 
 ; The Panopoly Foundation
 
+; Panopoly
+projects[panopoly][type] = profile
+projects[panopoly][download][type] = git
+projects[panopoly][download][branch] = 7.x-1.x
+
 projects[panopoly_core][version] = 1.22
 projects[panopoly_core][subdir] = panopoly
 
