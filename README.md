@@ -1,4 +1,4 @@
-javanais-drupal-asso
+javanais-drupal
 ====================
 
 Distribution Drupal pour associations
