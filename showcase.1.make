@@ -60,9 +60,14 @@ projects[variable][subdir] = "contrib"
 projects[css_injector][version] = 1.10
 projects[css_injector][subdir] = "contrib"
 
-; Librairies
-libraries[bootstrap][directory_name] = "bootstrap"
-libraries[bootstrap][type] = "library"
-libraries[bootstrap][destination] = "themes/contrib/bootstrap"
-libraries[bootstrap][download][type] = "get"
-libraries[bootstrap][download][url] = "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
+projects[css_injector][version] = 1.10
+projects[css_injector][subdir] = "contrib"
+
+; Theme
+projects[bootstrap][type] = "theme"
+projects[bootstrap][version] = "3.0"
+
+projects[bootstrap2][type] = theme
+projects[bootstrap2][download][type] = "git"
+projects[bootstrap2][download][url] = "git://github.com/Javanais/bootstrap2.git"
+projects[bootstrap2][download][branch] = "master"
