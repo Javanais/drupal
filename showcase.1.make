@@ -45,9 +45,6 @@ projects[module_filter][subdir] = "contrib"
 projects[nivo_slider][version] = 1.11
 projects[nivo_slider][subdir] = "contrib"
 
-projects[single_page_site][version] = 1.22
-projects[single_page_site][subdir] = "contrib"
-
 projects[nivo_slider][version] = 1.11
 projects[nivo_slider][subdir] = "contrib"
 
@@ -63,10 +60,15 @@ projects[css_injector][subdir] = "contrib"
 projects[css_injector][version] = 1.10
 projects[css_injector][subdir] = "contrib"
 
+; Librarie
+libraries[nivo-slider][type] = libraries
+libraries[nivo-slider][download][type] = "git"
+libraries[nivo-slider][download][url] = "git://github.com/gilbitron/Nivo-Slider.git"
+libraries[nivo-slider][download][branch] = "master"
+
 ; Theme
 projects[bootstrap][type] = "theme"
 projects[bootstrap][version] = "3.0"
-
 projects[bootstrap2][type] = theme
 projects[bootstrap2][download][type] = "git"
 projects[bootstrap2][download][url] = "git://github.com/Javanais/bootstrap2.git"
