@@ -45,9 +45,6 @@ projects[module_filter][subdir] = "contrib"
 projects[nivo_slider][version] = 1.11
 projects[nivo_slider][subdir] = "contrib"
 
-projects[nivo_slider][version] = 1.11
-projects[nivo_slider][subdir] = "contrib"
-
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = "contrib"
 
