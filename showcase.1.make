@@ -5,7 +5,7 @@ core = 7.x
 projects[drupal][type] = core
 projects[drupal][version] = 7.41
 
-; Modules
+; Modules contrib
 projects[ctools][version] = 1.9
 projects[ctools][subdir] = "contrib"
 
@@ -57,8 +57,12 @@ projects[variable][subdir] = "contrib"
 projects[css_injector][version] = 1.10
 projects[css_injector][subdir] = "contrib"
 
-projects[css_injector][version] = 1.10
-projects[css_injector][subdir] = "contrib"
+; Module custom
+projects[javanais_single_page_site][type] = "module"
+projects[javanais_single_page_site][subdir] = "javanais"
+projects[javanais_single_page_site][download][type] = "git"
+projects[javanais_single_page_site][download][url] = "git://github.com/Javanais/single_page_site.git"
+projects[javanais_single_page_site][download][branch] = "master"
 
 ; Librarie
 libraries[nivo-slider][type] = libraries
@@ -69,7 +73,6 @@ libraries[nivo-slider][download][branch] = "master"
 ; Theme
 projects[bootstrap][type] = "theme"
 projects[bootstrap][version] = "3.0"
-projects[bootstrap2][type] = theme
 projects[bootstrap2][download][type] = "git"
 projects[bootstrap2][download][url] = "git://github.com/Javanais/bootstrap2.git"
 projects[bootstrap2][download][branch] = "master"
