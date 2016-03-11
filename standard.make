@@ -54,6 +54,9 @@ projects[css_injector][subdir] = "contrib"
 projects[animate_css][version] = 1.1
 projects[animate_css][subdir] = "contrib"
 
+projects[ckeditor][version] = 1.17
+projects[ckeditor][subdir] = "contrib"
+
 projects[views_bootstrap][version] = 3.1
 projects[views_bootstrap][subdir] = "contrib"
 
