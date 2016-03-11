@@ -18,6 +18,9 @@ projects[features][subdir] = "contrib"
 projects[features_override][version] = 2.0-rc3
 projects[features_override][subdir] = "contrib"
 
+projects[bundle_copy][version] = 1.1
+projects[bundle_copy][subdir] = "contrib"
+
 projects[field_group][version] = 1.4
 projects[field_group][subdir] = "contrib"
 
@@ -53,6 +56,9 @@ projects[views_bootstrap][subdir] = "contrib"
 
 projects[views][version] = 3.13
 projects[views][subdir] = "contrib"
+
+projects[webform][version] = 4.12
+projects[webform][subdir] = "contrib"
 
 ; Theme
 projects[bootstrap][type] = "theme"
