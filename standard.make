@@ -69,6 +69,10 @@ projects[webform][subdir] = "contrib"
 projects[eu_cookie_compliance][version] = 1.14
 projects[eu_cookie_compliance][subdir] = "contrib"
 
+projects[l10n_update][version] = 2.0
+projects[l10n_update][subdir] = "contrib"
+
+
 ; Theme
 projects[bootstrap][type] = "theme"
 projects[bootstrap][version] = "3.5"
