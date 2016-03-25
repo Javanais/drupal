@@ -15,6 +15,9 @@ projects[entity][subdir] = "contrib"
 projects[features][version] = 2.6
 projects[features][subdir] = "contrib"
 
+projects[bundle_copy][version] = 1.1
+projects[bundle_copy][subdir] = "contrib"
+
 projects[features_override][version] = 2.0-rc3
 projects[features_override][subdir] = "contrib"
 
